@@ -114,6 +114,7 @@ a:hover::before {
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    background-color: rgba(255, 255, 255, .1);    
 }
 
 /* Section A-propos */
@@ -126,9 +127,9 @@ a:hover::before {
     gap: 20px;   
 }
 .my-photo{
-    background-image: url("images/anime-deti-21394.jpeg");
-    background-size: cover;
-    width: 350px;
+    background-image: url("images/maPhoto.jpg");
+    background-size: contain;
+    width: 300px;
     height: 400px;
     border-radius: 15px;    
 }
